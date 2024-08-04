@@ -70,3 +70,10 @@ This data source exports the following attributes:
   * `permission_level` - Permission level of the requesting user on the object. For what is allowed at each level, see MLflow Model permissions.
   * `tags` - Array of tags associated with the model.
   * `user_id` - The username of the user that created the object.
+
+
+## Related Resources
+
+The following resources are used in the same context:
+
+* [databricks_mlflow_models](mlflow_models.md) to list all models within MLflow.

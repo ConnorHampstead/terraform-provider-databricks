@@ -42,6 +42,7 @@
 | [databricks_metastore_assignment](docs/resources/metastore_assignment.md)
 | [databricks_metastore_data_access](docs/resources/metastore_data_access.md)
 | [databricks_mlflow_model](docs/resources/mlflow_model.md)
+| [databricks_mlflow_models](docs/data-sources/mlflow_models.md) data
 | [databricks_mlflow_experiment](docs/resources/mlflow_experiment.md)
 | [databricks_mlflow_webhook](docs/resources/mlflow_webhook.md)
 | [databricks_model_serving](docs/resources/model_serving.md)
