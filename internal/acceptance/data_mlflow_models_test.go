@@ -7,7 +7,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
 )
 
-func TestAccDataSourceMlflowModels(t *testing.T) {
+func TestAccDataSourceModels(t *testing.T) {
 	workspaceLevel(t, step{
 		Template: `
 		data "databricks_mlflow_models" "this" {

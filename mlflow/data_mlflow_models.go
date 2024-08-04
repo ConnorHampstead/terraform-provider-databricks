@@ -8,7 +8,7 @@ import (
 	"github.com/databricks/terraform-provider-databricks/common"
 )
 
-func DataSourceMlflowModels() common.Resource {
+func DataSourceModels() common.Resource {
 	return common.WorkspaceData(func(ctx context.Context, data *struct {
 		Ids []string `json:"ids,omitempty" tf:"computed,slice_set"`
 	}, w *databricks.WorkspaceClient) error {

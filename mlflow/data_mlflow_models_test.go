@@ -25,7 +25,7 @@ func TestModelsData(t *testing.T) {
 				},
 			},
 		},
-		Resource:    DataSourceMlflowModels(),
+		Resource:    DataSourceModels(),
 		Read:        true,
 		NonWritable: true,
 		ID:          "_",
@@ -37,7 +37,7 @@ func TestModelsData(t *testing.T) {
 func TestModelsData_Error(t *testing.T) {
 	qa.ResourceFixture{
 		Fixtures:    qa.HTTPFailures,
-		Resource:    DataSourceMlflowModels(),
+		Resource:    DataSourceModels(),
 		Read:        true,
 		NonWritable: true,
 		ID:          "_",
